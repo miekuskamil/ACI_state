@@ -1,0 +1,872 @@
+[
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-infra/ctx-overlay-1",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:53.783+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "overlay-1",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "16777199",
+                "seg": "16777199",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-infra/ctx-ave-ctrl",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.335+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "ave-ctrl",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2359296",
+                "seg": "2359296",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ctx-default",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.129+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2588672",
+                "seg": "2588672",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ctx-copy",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.129+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "copy",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2326528",
+                "seg": "2326528",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-mgmt/ctx-oob",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.217+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "oob",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "3080192",
+                "seg": "3080192",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-mgmt/ctx-inb",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.217+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "inb",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2490368",
+                "seg": "2490368",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-Heroes/ctx-Heroes_Only",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:53.027+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Heroes_Only",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "3080193",
+                "seg": "3080193",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-SnV/ctx-Superverse",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:53.275+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Superverse",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "3047424",
+                "seg": "3047424",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-InfraTest_Tenant/ctx-DC-Internal_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T07:05:16.134+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "DC-Internal_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2162688",
+                "seg": "2162688",
+                "status": "",
+                "uid": "15458"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "VRF Name: VRF-NON-PROD-NTT",
+                "dn": "uni/tn-TN-NON-PROD-NTT/ctx-VRF-NON-PROD-NTT",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T10:14:45.312+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "VRF-NON-PROD-NTT",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2850817",
+                "seg": "2850817",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-INITIALS_Example/ctx-Example_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T11:27:42.954+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Example_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2424832",
+                "seg": "2424832",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-Test1/ctx-Muzna_Web_Server_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T11:34:37.746+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Muzna_Web_Server_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2293760",
+                "seg": "2293760",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-tutorial/ctx-myvrf",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T12:43:03.351+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "myvrf",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2293761",
+                "seg": "2293761",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-Sales_nxt/ctx-VRF-NXT",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:11:55.326+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "VRF-NXT",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2916352",
+                "seg": "2916352",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-TEST-TENANT-N/ctx-VRF-TEST",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:13:07.914+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "VRF-TEST",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2785280",
+                "seg": "2785280",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-TEN_UDO/ctx-VRF_UDO",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:13:29.401+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "VRF_UDO",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2555904",
+                "seg": "2555904",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-SF_AC1-T/ctx-EU_SDSF_1_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:24:35.940+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "EU_SDSF_1_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2162689",
+                "seg": "2162689",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-Ten_Org/ctx-Vrf_Org",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:39:41.037+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Vrf_Org",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2162690",
+                "seg": "2162690",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-External-1/ctx-External",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T14:09:50.640+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "External",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2850818",
+                "seg": "2850818",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-SnV/ctx-vrf-etst",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T14:30:05.684+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "vrf-etst",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2949120",
+                "seg": "2949120",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-SnV/ctx-vrf-test2",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T14:35:01.230+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "vrf-test2",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2654208",
+                "seg": "2654208",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "@vrf_pbuitrago PB test 1",
+                "dn": "uni/tn-PB_123/ctx-PB_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T15:07:22.483+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "PB_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "egress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2654209",
+                "seg": "2654209",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-cortegag_tenant/ctx-cortegag_vrf",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T15:29:20.810+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "cortegag_vrf",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2785281",
+                "seg": "2785281",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-tower/ctx-tower",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T16:12:27.272+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "tower",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2424833",
+                "seg": "2424833",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-mmenozzi_TENANTTRAINING/ctx-mmenozzi_VRFTRAINING",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T16:17:50.096+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "mmenozzi_VRFTRAINING",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2228224",
+                "seg": "2228224",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-ansible_aci/ctx-ansible_aci_vrf",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T16:43:37.946+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "ansible_aci_vrf",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2162691",
+                "seg": "2162691",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-aitor-TENANTTRAINING/ctx-aitor-VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T17:09:25.903+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "aitor-VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2195456",
+                "seg": "2195456",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-AMIT/ctx-AMIT",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T19:01:14.485+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "AMIT",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "49153",
+                "scope": "2850819",
+                "seg": "2850819",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-INITIALS_Example_Tenant/ctx-Example_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T19:46:40.311+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Example_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2228225",
+                "seg": "2228225",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-Heroes/ctx-T-Power-up_VRF",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T20:46:31.174+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "T-Power-up_VRF",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2228226",
+                "seg": "2228226",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    }
+]

@@ -1,0 +1,2515 @@
+[
+    {
+        "aaaDomainRef": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/domain-common",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "common",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "aaaDomainRef": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/domain-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "arpIfPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/arpifpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "bfdIfPol": {
+            "attributes": {
+                "adminSt": "enabled",
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "detectMult": "3",
+                "dn": "uni/tn-common/bfdIfPol-default",
+                "echoAdminSt": "enabled",
+                "echoRxIntvl": "50",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "minRxIntvl": "50",
+                "minTxIntvl": "50",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "bgpCtxAfPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/bgpCtxAfP-default",
+                "eDist": "20",
+                "extMngdBy": "",
+                "iDist": "200",
+                "lcOwn": "local",
+                "localDist": "220",
+                "maxEcmp": "16",
+                "maxEcmpIbgp": "16",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "bgpCtxPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/bgpCtxP-default",
+                "extMngdBy": "",
+                "grCtrl": "helper",
+                "holdIntvl": "180",
+                "kaIntvl": "60",
+                "lcOwn": "local",
+                "maxAsLimit": "0",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "staleIntvl": "default",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "bgpPeerPfxPol": {
+            "attributes": {
+                "action": "reject",
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/bgpPfxP-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "maxPfx": "20000",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "restartTime": "infinite",
+                "status": "",
+                "thresh": "75",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "bgpRtSummPol": {
+            "attributes": {
+                "annotation": "",
+                "attrmap": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/bgprtsum-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "cloudApp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/cloudapp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:39:09.635+00:00",
+                "monPolDn": "",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "cloudAwsFlowLogPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flowlog-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "logDestination": "cloud-watch-logs",
+                "modTs": "2020-06-16T06:39:09.635+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "trafficType": "ALL",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "cloudAwsLogGroup": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/loggrp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:39:09.635+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "retention": "days-5",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "cloudDepl": {
+            "attributes": {
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/cldDepl",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "nodeId": "1",
+                "ownerKey": "",
+                "ownerTag": "",
+                "podId": "1",
+                "status": ""
+            }
+        }
+    },
+    {
+        "cloudHostRouterPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/hostrouterpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:39:09.635+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "password": "",
+                "routerModel": "csr",
+                "status": "",
+                "throughput": "10M",
+                "token": "",
+                "uid": "0",
+                "username": ""
+            }
+        }
+    },
+    {
+        "cloudVpnGwPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/vpngwpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:39:09.635+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0",
+                "vpnTransit": "no"
+            }
+        }
+    },
+    {
+        "dbgacIpToIp": {
+            "attributes": {
+                "adminSt": "enabled",
+                "annotation": "",
+                "bdEncap": "unknown",
+                "childAction": "",
+                "countOnSpine": "no",
+                "ctxEncap": "unknown",
+                "ctxName": "",
+                "descr": "",
+                "dn": "uni/tn-common/acIpToIp-default",
+                "dstIp": "0.0.0.0",
+                "extMngdBy": "",
+                "latencyCollect": "avg",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:51.809+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "srcIp": "0.0.0.0",
+                "status": "",
+                "uid": "0",
+                "usage": "atomic-counter",
+                "useEncap": "ctx"
+            }
+        }
+    },
+    {
+        "dhcpOptionPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/dhcpoptpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "eigrpCtxAfPol": {
+            "attributes": {
+                "actIntvl": "3",
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/eigrpCtxAfP-default",
+                "extDist": "170",
+                "extMngdBy": "",
+                "intDist": "90",
+                "lcOwn": "local",
+                "maxPaths": "8",
+                "metricStyle": "narrow",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "eigrpIfPol": {
+            "attributes": {
+                "annotation": "",
+                "bw": "0",
+                "childAction": "",
+                "ctrl": "nh-self,split-horizon",
+                "delay": "0",
+                "delayUnit": "tens-of-micro",
+                "descr": "",
+                "dn": "uni/tn-common/eigrpIfPol-default",
+                "extMngdBy": "",
+                "helloIntvl": "5",
+                "holdIntvl": "15",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "eigrpRtSummPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/eigrprtsumm-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "extdevSDWanPolCont": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/sdwanpolcont",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fcPinningP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/pinningp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fhsBDPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/bdpol-default",
+                "extMngdBy": "",
+                "ipInspectAdminSt": "enabled-both",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "raGuardAdminSt": "enabled",
+                "srcGuardAdminSt": "enabled-both",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fhsTrustCtrlPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/trustctrlpol-default",
+                "extMngdBy": "",
+                "hasDhcpv4Server": "no",
+                "hasDhcpv6Server": "no",
+                "hasIpv6Router": "no",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "trustArp": "no",
+                "trustDhcpv4": "no",
+                "trustDhcpv6": "no",
+                "trustIpv4Src": "no",
+                "trustIpv6Src": "no",
+                "trustNd": "no",
+                "trustRa": "no",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvAp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ap-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvAp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ap-tenant_common",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:58:24.159+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "tenant_common",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvAp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "ap_1",
+                "dn": "uni/tn-common/ap-ap_1",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T19:44:46.100+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "ap_1",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvAp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "ap_2",
+                "dn": "uni/tn-common/ap-ap_2",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T19:44:47.425+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "ap_2",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvAp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "ap_3",
+                "dn": "uni/tn-common/ap-ap_3",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T19:44:48.736+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "ap_3",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvBD": {
+            "attributes": {
+                "OptimizeWanBandwidth": "no",
+                "annotation": "",
+                "arpFlood": "no",
+                "bcastP": "225.0.165.32",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/BD-default",
+                "epClear": "no",
+                "epMoveDetectMode": "",
+                "extMngdBy": "",
+                "hostBasedRouting": "no",
+                "intersiteBumTrafficAllow": "no",
+                "intersiteL2Stretch": "no",
+                "ipLearning": "yes",
+                "lcOwn": "local",
+                "limitIpLearnToSubnets": "yes",
+                "llAddr": "::",
+                "mac": "00:22:BD:F8:19:FF",
+                "mcastAllow": "no",
+                "modTs": "2020-06-16T06:39:27.353+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "mtu": "inherit",
+                "multiDstPktAct": "bd-flood",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcTag": "49153",
+                "scope": "2588672",
+                "seg": "16744306",
+                "status": "",
+                "type": "regular",
+                "uid": "0",
+                "unicastRoute": "yes",
+                "unkMacUcastAct": "proxy",
+                "unkMcastAct": "flood",
+                "v6unkMcastAct": "flood",
+                "vmac": "not-applicable"
+            }
+        }
+    },
+    {
+        "fvConnInstrPol": {
+            "attributes": {
+                "annotation": "",
+                "bdCtrl": "do-not-instrument",
+                "childAction": "",
+                "ctxCtrl": "do-not-instrument",
+                "descr": "",
+                "dn": "uni/tn-common/connInstrPol",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ctx-default",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.129+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2588672",
+                "seg": "2588672",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ctx-copy",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.129+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "copy",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2326528",
+                "seg": "2326528",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvEpRetPol": {
+            "attributes": {
+                "annotation": "",
+                "bounceAgeIntvl": "630",
+                "bounceTrig": "protocol",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/epRPol-default",
+                "extMngdBy": "",
+                "holdIntvl": "300",
+                "lcOwn": "local",
+                "localEpAgeIntvl": "900",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "moveFreq": "256",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "remoteEpAgeIntvl": "300",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvIPSLAMonitoringPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ipslaMonitoringPol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "slaDetectMultiplier": "3",
+                "slaFrequency": "60",
+                "slaPort": "0",
+                "slaType": "icmp",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvKeyChainPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/keychainp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvRsTenantMonPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "dn": "uni/tn-common/rsTenantMonPol",
+                "extMngdBy": "",
+                "forceResolve": "yes",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "",
+                "rType": "mo",
+                "state": "formed",
+                "stateQual": "default-target",
+                "status": "",
+                "tCl": "monEPGPol",
+                "tContextDn": "",
+                "tDn": "uni/tn-common/monepg-default",
+                "tRn": "monepg-default",
+                "tType": "name",
+                "tnMonEPGPolName": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "fvSlaDef": {
+            "attributes": {
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/slaDefPol-default",
+                "ipslaDetectMultiplier": "3",
+                "ipslaFrequency": "60",
+                "ipslaPort": "0",
+                "ipslaType": "icmp",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": ""
+            }
+        }
+    },
+    {
+        "hostprotPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/pol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "hsrpGroupPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/hsrpGroupPol-default",
+                "extMngdBy": "",
+                "helloIntvl": "3000",
+                "holdIntvl": "10000",
+                "key": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "preemptDelayMin": "0",
+                "preemptDelayReload": "0",
+                "preemptDelaySync": "0",
+                "prio": "100",
+                "status": "",
+                "timeout": "0",
+                "type": "simple",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "hsrpIfPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "delay": "0",
+                "descr": "",
+                "dn": "uni/tn-common/hsrpIfPol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "reloadDelay": "0",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "igmpIfPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/igmpIfPol-default",
+                "extMngdBy": "",
+                "grpTimeout": "260",
+                "ifCtrl": "",
+                "lastMbrCnt": "2",
+                "lastMbrRespTime": "1",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "querierTimeout": "255",
+                "queryIntvl": "125",
+                "robustFac": "2",
+                "rspIntvl": "10",
+                "startQueryCnt": "2",
+                "startQueryIntvl": "31",
+                "status": "",
+                "uid": "0",
+                "ver": "v2"
+            }
+        }
+    },
+    {
+        "igmpSnoopPol": {
+            "attributes": {
+                "adminSt": "enabled",
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/snPol-default",
+                "extMngdBy": "",
+                "lastMbrIntvl": "1",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "queryIntvl": "125",
+                "rspIntvl": "10",
+                "startQueryCnt": "2",
+                "startQueryIntvl": "31",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "infraClP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/clp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "infraProvP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/provp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "ipsecIsakmpPhase1Pol": {
+            "attributes": {
+                "annotation": "",
+                "authMethod": "pre-share",
+                "childAction": "",
+                "descr": "",
+                "dhGroup": "1",
+                "dn": "uni/tn-common/isakmp1-default",
+                "encryption": "des",
+                "extMngdBy": "",
+                "hash": "md5",
+                "lcOwn": "local",
+                "lifetime": "28000",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "ipsecIsakmpPhase2Pol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dhGroup": "1",
+                "dn": "uni/tn-common/isakmp2-default",
+                "encapsulationMode": "tunnel",
+                "encapsulationType": "esp",
+                "encryption": "des",
+                "extMngdBy": "",
+                "hash": "md5",
+                "lcOwn": "local",
+                "lifetime": "28000",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "isakmpGlobalPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/globalpol",
+                "extMngdBy": "",
+                "keepalive": "10",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "retryInterval": "2",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "isakmpKeyring": {
+            "attributes": {
+                "address": "0.0.0.0",
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/keyring-default",
+                "extMngdBy": "",
+                "keyType": "pre-shared",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "isakmpProfile": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/isakmpp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "l2extOut": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/l2out-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "l3extOut": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/out-default",
+                "enforceRtctrl": "export",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "l3extOutDef": {
+            "attributes": {
+                "childAction": "",
+                "ctxDn": "",
+                "ctxName": "",
+                "ctxPcTag": "any",
+                "ctxScope": "0",
+                "ctxSeg": "0",
+                "descr": "",
+                "dn": "uni/tn-common/outdef-default",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "routeTag": "0",
+                "status": "",
+                "targetDscp": "unspecified"
+            }
+        }
+    },
+    {
+        "l3extRouteTagPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/rttag-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "tag": "4294967295",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "l3extVrfValidationPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/vrfvalidationpol-default",
+                "enableVrfValidationInterfaceInco": "yes",
+                "enableVrfValidationIpAddress": "yes",
+                "enableVrfValidationLoopbackIf": "yes",
+                "enableVrfValidationOspfArea": "yes",
+                "enableVrfValidationOspfAreaId": "yes",
+                "enableVrfValidationOspfIfPol": "yes",
+                "enableVrfValidationRouterId": "yes",
+                "enableVrfValidationSubnet": "yes",
+                "enableVrfValidationSviLinkLocalAddr": "yes",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "mldSnoopPol": {
+            "attributes": {
+                "adminSt": "disabled",
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/mldsnoopPol-default",
+                "extMngdBy": "",
+                "lastMbrIntvl": "1",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "queryIntvl": "125",
+                "rspIntvl": "10",
+                "startQueryCnt": "2",
+                "startQueryIntvl": "31",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "monEPGPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/monepg-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "ndIfPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/ndifpol-default",
+                "extMngdBy": "",
+                "hopLimit": "64",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "mtu": "9000",
+                "name": "default",
+                "nameAlias": "",
+                "nsIntvl": "1000",
+                "nsRetries": "3",
+                "ownerKey": "",
+                "ownerTag": "",
+                "raIntvl": "600",
+                "raLifetime": "1800",
+                "reachableTime": "0",
+                "retransTimer": "0",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "ndPfxPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "ctrl": "auto-cfg,on-link",
+                "descr": "",
+                "dn": "uni/tn-common/ndpfxpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "lifetime": "2592000",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prefLifetime": "604800",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "netflowMonitorPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/monitorpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "netflowRecordPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "collect": "src-intf",
+                "descr": "",
+                "dn": "uni/tn-common/recordpol-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "match": "",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "ospfCtxPol": {
+            "attributes": {
+                "annotation": "",
+                "bwRef": "40000",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dist": "110",
+                "dn": "uni/tn-common/ospfCtxP-default",
+                "extMngdBy": "",
+                "grCtrl": "helper",
+                "lcOwn": "local",
+                "lsaArrivalIntvl": "1000",
+                "lsaGpPacingIntvl": "10",
+                "lsaHoldIntvl": "5000",
+                "lsaMaxIntvl": "5000",
+                "lsaStartIntvl": "0",
+                "maxEcmp": "8",
+                "maxLsaAction": "reject",
+                "maxLsaNum": "20000",
+                "maxLsaResetIntvl": "10",
+                "maxLsaSleepCnt": "5",
+                "maxLsaSleepIntvl": "5",
+                "maxLsaThresh": "75",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "spfHoldIntvl": "1000",
+                "spfInitIntvl": "200",
+                "spfMaxIntvl": "5000",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "ospfIfPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "cost": "unspecified",
+                "ctrl": "",
+                "deadIntvl": "40",
+                "descr": "",
+                "dn": "uni/tn-common/ospfIfPol-default",
+                "extMngdBy": "",
+                "helloIntvl": "10",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "nwT": "unspecified",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pfxSuppress": "inherit",
+                "prio": "1",
+                "rexmitIntvl": "5",
+                "status": "",
+                "uid": "0",
+                "xmitDelay": "1"
+            }
+        }
+    },
+    {
+        "ospfRtSummPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "cost": "unspecified",
+                "descr": "",
+                "dn": "uni/tn-common/ospfrtsumm-default",
+                "extMngdBy": "",
+                "interAreaEnabled": "no",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "tag": "0",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "pimIfPol": {
+            "attributes": {
+                "annotation": "",
+                "authKey": "",
+                "authT": "none",
+                "childAction": "",
+                "ctrl": "",
+                "descr": "",
+                "dn": "uni/tn-common/pimifpol-default",
+                "drDelay": "3",
+                "drPrio": "1",
+                "extMngdBy": "",
+                "helloItvl": "30000",
+                "jpInterval": "60",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "qosCustomPol": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/qoscustom-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "qosDppPol": {
+            "attributes": {
+                "adminSt": "disabled",
+                "annotation": "",
+                "be": "unspecified",
+                "beUnit": "unspecified",
+                "burst": "unspecified",
+                "burstUnit": "unspecified",
+                "childAction": "",
+                "conformAction": "transmit",
+                "conformMarkCos": "unspecified",
+                "conformMarkDscp": "unspecified",
+                "descr": "",
+                "dn": "uni/tn-common/qosdpppol-default",
+                "exceedAction": "drop",
+                "exceedMarkCos": "unspecified",
+                "exceedMarkDscp": "unspecified",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "mode": "bit",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pir": "0",
+                "pirUnit": "unspecified",
+                "rate": "0",
+                "rateUnit": "unspecified",
+                "sharingMode": "dedicated",
+                "status": "",
+                "type": "1R2C",
+                "uid": "0",
+                "violateAction": "drop",
+                "violateMarkCos": "unspecified",
+                "violateMarkDscp": "unspecified"
+            }
+        }
+    },
+    {
+        "spanVDestGrp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/vdestgrp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "spanVSrcGrp": {
+            "attributes": {
+                "adminSt": "start",
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/vsrcgrp-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vnsAbsFuncProfContr": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/absFuncProfContr",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vnsMscGraphXlateCont": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/mscGraphXlateCont",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vnsRtrCfg": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/rtrCfg-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "rtrId": "0.0.0.0",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vnsSvcCont": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "dn": "uni/tn-common/svcCont",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vzBrCP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/brc-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "reevaluateAll": "no",
+                "scope": "context",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vzBrCP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/brc-web",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "web",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "reevaluateAll": "no",
+                "scope": "context",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "vzBrCP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/brc-sql",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "sql",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "reevaluateAll": "no",
+                "scope": "application-profile",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "vzBrCP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/brc-power_up",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "power_up",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "reevaluateAll": "no",
+                "scope": "context",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "vzCPIf": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/cif-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-default",
+                "extMngdBy": "",
+                "fwdId": "default",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "default",
+                "status": "",
+                "txId": "0",
+                "uid": "0",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-icmp",
+                "extMngdBy": "",
+                "fwdId": "5",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "icmp",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "5",
+                "status": "",
+                "txId": "0",
+                "uid": "0",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-est",
+                "extMngdBy": "",
+                "fwdId": "3",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "est",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "3",
+                "status": "",
+                "txId": "0",
+                "uid": "0",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-arp",
+                "extMngdBy": "",
+                "fwdId": "7",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "arp",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "7",
+                "status": "",
+                "txId": "0",
+                "uid": "0",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-power_up",
+                "extMngdBy": "",
+                "fwdId": "13",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "power_up",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "14",
+                "status": "",
+                "txId": "0",
+                "uid": "15374",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-http",
+                "extMngdBy": "",
+                "fwdId": "9",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "http",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "10",
+                "status": "",
+                "txId": "0",
+                "uid": "15374",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-sql_browser",
+                "extMngdBy": "",
+                "fwdId": "17",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "sql_browser",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "18",
+                "status": "",
+                "txId": "0",
+                "uid": "15374",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-sql_server",
+                "extMngdBy": "",
+                "fwdId": "15",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "sql_server",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "16",
+                "status": "",
+                "txId": "0",
+                "uid": "15374",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzFilter": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/flt-https",
+                "extMngdBy": "",
+                "fwdId": "11",
+                "id": "implicit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "https",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "12",
+                "status": "",
+                "txId": "0",
+                "uid": "15374",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no",
+                "usesIds": "yes"
+            }
+        }
+    },
+    {
+        "vzOOBBrCP": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/oobbrc-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "reevaluateAll": "no",
+                "scope": "context",
+                "status": "",
+                "targetDscp": "unspecified",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vzTaboo": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "configIssues": "",
+                "descr": "",
+                "dn": "uni/tn-common/taboo-default",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "reevaluateAll": "no",
+                "scope": "context",
+                "status": "",
+                "uid": "0"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-31",
+                "id": "31",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T10:12:07.296+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "32",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-11",
+                "id": "11",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "12",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-12",
+                "id": "12",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "11",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-9",
+                "id": "9",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "10",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-16",
+                "id": "16",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "15",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-5",
+                "id": "5",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "5",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-35",
+                "id": "35",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T14:27:41.681+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "35",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-15",
+                "id": "15",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "16",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "fvTnlCtx": {
+            "attributes": {
+                "bdEnforcedEnable": "no",
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/tnlctx-default",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:54.129+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "default",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2621440",
+                "seg": "2621440",
+                "status": ""
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-13",
+                "id": "13",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "14",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-10",
+                "id": "10",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "9",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-14",
+                "id": "14",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "13",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-33",
+                "id": "33",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:24:00.505+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "34",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-34",
+                "id": "34",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:24:00.505+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "33",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-32",
+                "id": "32",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T10:12:07.296+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "31",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-3",
+                "id": "3",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "3",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-7",
+                "id": "7",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "7",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-default",
+                "id": "default",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "default",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-18",
+                "id": "18",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "17",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-17",
+                "id": "17",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:40:52.858+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "18",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    }
+]
