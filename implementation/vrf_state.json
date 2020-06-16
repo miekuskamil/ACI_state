@@ -179,6 +179,93 @@
                 "annotation": "",
                 "bdEnforcedEnable": "no",
                 "childAction": "",
+                "descr": "vrf @johnwelby",
+                "dn": "uni/tn-DEV/ctx-APP",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T23:04:58.205+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "APP",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "egress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2392064",
+                "seg": "2392064",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "vrf @johnwelby",
+                "dn": "uni/tn-DEPLOYMENT/ctx-ACCT",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T23:05:02.122+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "ACCT",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "egress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "3014657",
+                "seg": "3014657",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-DEV/ctx-test_declaration_git_vrf",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T23:22:57.303+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "test_declaration_git_vrf",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "16386",
+                "scope": "2981888",
+                "seg": "2981888",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
                 "descr": "",
                 "dn": "uni/tn-infra/ctx-overlay-1",
                 "extMngdBy": "",
