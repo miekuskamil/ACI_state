@@ -913,6 +913,35 @@
         }
     },
     {
+        "fvCtx": {
+            "attributes": {
+                "annotation": "",
+                "bdEnforcedEnable": "no",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ctx-klocki",
+                "extMngdBy": "",
+                "ipDataPlaneLearning": "enabled",
+                "knwMcastAct": "permit",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T22:53:03.838+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "klocki",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "pcEnfDir": "ingress",
+                "pcEnfDirUpdated": "yes",
+                "pcEnfPref": "enforced",
+                "pcTag": "32770",
+                "scope": "2195458",
+                "seg": "2195458",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
         "fvEpRetPol": {
             "attributes": {
                 "annotation": "",
@@ -2607,27 +2636,6 @@
             "attributes": {
                 "childAction": "deleteNonPresent",
                 "descr": "",
-                "dn": "uni/tn-common/fp-34",
-                "id": "34",
-                "lcOwn": "local",
-                "modTs": "2020-06-16T13:24:00.505+00:00",
-                "monPolDn": "uni/tn-common/monepg-default",
-                "name": "",
-                "nameAlias": "",
-                "ownerKey": "",
-                "ownerTag": "",
-                "revId": "33",
-                "status": "",
-                "unsupportedEntries": "no",
-                "unsupportedMgmtEntries": "no"
-            }
-        }
-    },
-    {
-        "vzRFltP": {
-            "attributes": {
-                "childAction": "deleteNonPresent",
-                "descr": "",
                 "dn": "uni/tn-common/fp-32",
                 "id": "32",
                 "lcOwn": "local",
@@ -2659,6 +2667,27 @@
                 "ownerKey": "",
                 "ownerTag": "",
                 "revId": "3",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
+                "dn": "uni/tn-common/fp-34",
+                "id": "34",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T13:24:00.505+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "33",
                 "status": "",
                 "unsupportedEntries": "no",
                 "unsupportedMgmtEntries": "no"
