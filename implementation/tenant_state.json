@@ -615,6 +615,27 @@
         }
     },
     {
+        "fvAp": {
+            "attributes": {
+                "annotation": "",
+                "childAction": "",
+                "descr": "",
+                "dn": "uni/tn-common/ap-Test_ANP",
+                "extMngdBy": "",
+                "lcOwn": "local",
+                "modTs": "2020-06-17T06:12:11.836+00:00",
+                "monPolDn": "uni/tn-common/monepg-default",
+                "name": "Test_ANP",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "prio": "unspecified",
+                "status": "",
+                "uid": "15374"
+            }
+        }
+    },
+    {
         "fvBD": {
             "attributes": {
                 "OptimizeWanBandwidth": "no",
@@ -2505,6 +2526,27 @@
             "attributes": {
                 "childAction": "deleteNonPresent",
                 "descr": "",
+                "dn": "uni/tn-common/fp-7",
+                "id": "7",
+                "lcOwn": "local",
+                "modTs": "2020-06-16T06:37:48.273+00:00",
+                "monPolDn": "",
+                "name": "",
+                "nameAlias": "",
+                "ownerKey": "",
+                "ownerTag": "",
+                "revId": "7",
+                "status": "",
+                "unsupportedEntries": "no",
+                "unsupportedMgmtEntries": "no"
+            }
+        }
+    },
+    {
+        "vzRFltP": {
+            "attributes": {
+                "childAction": "deleteNonPresent",
+                "descr": "",
                 "dn": "uni/tn-common/fp-14",
                 "id": "14",
                 "lcOwn": "local",
@@ -2688,27 +2730,6 @@
                 "ownerKey": "",
                 "ownerTag": "",
                 "revId": "33",
-                "status": "",
-                "unsupportedEntries": "no",
-                "unsupportedMgmtEntries": "no"
-            }
-        }
-    },
-    {
-        "vzRFltP": {
-            "attributes": {
-                "childAction": "deleteNonPresent",
-                "descr": "",
-                "dn": "uni/tn-common/fp-7",
-                "id": "7",
-                "lcOwn": "local",
-                "modTs": "2020-06-16T06:37:48.273+00:00",
-                "monPolDn": "",
-                "name": "",
-                "nameAlias": "",
-                "ownerKey": "",
-                "ownerTag": "",
-                "revId": "7",
                 "status": "",
                 "unsupportedEntries": "no",
                 "unsupportedMgmtEntries": "no"
